@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install apache2 mariadb-server git -y
 
 # run this as normal user
-ssh-keygen -t rsa -b 4096 "andrewsalveson@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "andrewsalveson@gmail.com"
 # then some user interaction will have to happen here
 
 # start ssh-agent in background
